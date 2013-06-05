@@ -1,8 +1,12 @@
-/build/*
-/target/*
-/dist/*
+#SBT
+target
+project/target
+project/project
 
-.gradle/*
-
-SimpleUMLStateMachine.iml
-.idea/*
+# IntelliJ
+.idea
+.idea_modules
+*.iml
+*.ipr
+*.iws
+.history
